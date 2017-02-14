@@ -116,7 +116,7 @@ body {
   background: rgba(0, 0, 0, 0.5);
   margin: 1rem 0;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
   padding: 1rem;
   border: 2px solid #fff;
@@ -130,6 +130,7 @@ body {
 
   .final-question {
     margin-top: 4rem;
+    margin-right: 2rem;
   }
 }
 
