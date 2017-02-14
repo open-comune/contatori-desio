@@ -9,8 +9,8 @@ html, body {
 
 @font-face {
   font-family: 'allerregular';
-  src: url('/fonts/aller_rg-webfont.woff2') format('woff2'),
-       url('/fonts/aller_rg-webfont.woff') format('woff');
+  src: url('/studio-epidemiologico/fonts/aller_rg-webfont.woff2') format('woff2'),
+       url('/studio-epidemiologico/fonts/aller_rg-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -20,7 +20,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-family: 'allerregular';
-  background: url('/images/background--mobile.jpg') no-repeat center center fixed;
+  background: url('/studio-epidemiologico/images/background--mobile.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -32,7 +32,7 @@ body {
 
 @media (min-width: 500px) {
   body {
-    background: url('/images/background.jpg') no-repeat center center fixed;
+    background: url('/studio-epidemiologico/images/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
