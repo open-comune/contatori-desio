@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <title>Contatori desiani</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link async rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1 class="main-title">
+    Studio epidemiologico<br />sugli effetti dell'inceneritore
+  </h1>
+
+  <div class="main">
+    <div class="countdowns">
+      <section class="countdown-container" data-countdown data-countdown-start-date="2010-10-25" data-countdown-container-id="since-first-vote">
+        <h1>Dalla prima votazione in Consiglio Comunale</h1>
+        <div class="countdown-segment-container">
+          <div class="countdown-segment">
+            <span class="countdown__value" data-countdown="years"></span>
+            <span class="countdown__label">Anni</span>
+          </div>
+          <div class="countdown-segment">
+            <span class="countdown__value" data-countdown="months"></span>
+            <span class="countdown__label">Mesi</span>
+          </div>
+          <div class="countdown-segment">
+            <span class="countdown__value" data-countdown="days"></span>
+            <span class="countdown__label">Giorni</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="countdown-container" data-countdown data-countdown-start-date="2015-10-01" data-countdown-container-id="since-second-vote">
+        <h1>Dalla seconda votazione in Consiglio Comunale</h1>
+        <div class="countdown-segment-container">
+          <div class="countdown-segment">
+            <span class="countdown__value" data-countdown="years"></span>
+            <span class="countdown__label">Anni</span>
+          </div>
+          <div class="countdown-segment">
+            <span class="countdown__value" data-countdown="months"></span>
+            <span class="countdown__label">Mesi</span>
+          </div>
+          <div class="countdown-segment">
+            <span class="countdown__value" data-countdown="days"></span>
+            <span class="countdown__label">Giorni</span>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="text-block">
+      <p class="final-question">Quanto aspetteremo ancora?</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p data-today class="current-date">
+      Oggi
+    </p>
+
+    <p class="more-info">
+      <a href="https://github.com/open-comune/conosci-desio/blob/master/data/studio-epidemiologico-inceneritore.md" target="_BLANK">
+        Cronistoria
+      </a>
+    </p>
+  </div>
+
+  <script src="/js/countdown.js"></script>
+  <script src="/js/moment.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
